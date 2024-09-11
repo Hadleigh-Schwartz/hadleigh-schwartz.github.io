@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 
 body {
   margin: 60px auto;
-  width: 70%;
+  width: 65%;
   background-color: #FFFFFF;
 }
 
@@ -10,6 +11,97 @@ body {
   width: 100%;
   height: 0px;
 }
+
+
+/* header and nav ----- */
+.title {
+  float: left;
+  margin: 0;
+  display: table;
+  width: 600px;
+  padding-top: 10px;
+}
+
+.title a {
+  color: #000000;
+}
+
+header h1 {
+  font-size: 36px;
+}
+
+header, nav {
+  height: 120px;
+  margin-top:20px;
+}
+
+header {
+  vertical-align: middle;
+  min-width: 900px;
+}
+
+nav ul {
+  margin: 0;
+  height: 100%;
+  display: table;
+  font-family: 'Nunito', 'Helvetica', 'Sans-Serif';
+  list-style: none;
+}
+nav ul li {
+  height: 100%;
+  vertical-align: middle;
+  display: table-cell;
+  font-family: 'Nunito', 'Helvetica', 'Sans-Serif';
+  font-size:18px
+}
+
+nav li {
+  display:inline;
+  padding:10px;
+}
+
+header nav {
+  list-style: center;
+  float: right;
+  vertical-align: middle;
+}
+/* ------------------------- */
+
+
+/* general ----- */
+
+a {
+  text-decoration: none;
+  color: #008dad;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #05d1ff;
+}
+
+h1 {
+  font-family: 'Nunito', 'Helvetica', 'Sans-Serif';
+  font-size: 32px;
+  font-weight:normal;
+  color:black;
+  padding-top:20px;
+}
+
+
+.extra-bold {
+  font-family: 'Nunito', 'Helvetica', 'Sans-Serif';
+  font-weight: 800;
+}
+p, ol, ol li, ul, ul li {
+  font-family: 'Nunito', 'Helvetica', 'Sans-Serif';
+  font-size: 16px;
+  line-height: 1.6em;
+  color: #45413A;
+}
+
+/* ------------------------- */
+
 
 /* about section of website ----- */
 .about-wide {
@@ -28,21 +120,33 @@ body {
   width: 100%;
 }
 
+
+.profile-pic{
+  width:50%;
+  border-radius:50%;
+}
+
 .about-img {
-/*  padding: 0px 50px 15px 25px;*/
-  padding-top: 20px;
-  width: 38%;
+  width: 60%;
   float: left;
-  min-width: 200px;
   text-align: center;
+  /* margin: 0px 0px 0px -70px */
+  margin: 0px 0px 20px -100px;
 }
 
 .about-desc {
   width: 100%;
   padding-right: 20px;
-  padding-left: 50px;
   float: right;
+  margin-left: -40px;
+  
 }
+
+.contacts{
+  margin-top: 30px;
+  text-align: center
+}
+
 /* ------------------------- */
 
 /* Research section of website --- */
@@ -50,6 +154,7 @@ body {
     display: flex;
     position: relative;
     padding-bottom: 20px;
+    margin-top:-10px;
 }
 
 .research-img {
@@ -75,445 +180,111 @@ body {
 }
 
 .research-desc p {
-/*    margin-top: 10px;*/
     margin-bottom: -17px;
 }
 
-/* -------------------------- */
-
-/* Projects section of website --- */
-.project {
-  display: flex;
-  position: relative;
-  margin-bottom: -30px;
-}
-
-.project-img {
-  position: relative;
-  float: left;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.project-img img {
-  width: 200px;
-  margin-top: 15px;
-  margin-right: 50px;
-}
-
-.project-desc {
-  flex: 75%;
-  float: right;
-}
-
-.project-desc h2 {
-    font-size: 18px;
-}
-
-.project-desc h3 {
-    margin-top: -10px;
-    font-size: 16px;
-}
-
-/* ---------------------------- */
-
-.extra-bold {
-    font-weight: 300;
-/*    text-shadow: 1px 0 #888888;*/
-    text-shadow: 1px 0 #888888;
-}
-
-/* DivTable.com */
-.divTable{
-	border: none;
-	display: table;
-	width: 100%;
-	vertical-align: top;
-	padding: 0px 0px;
-	margin: 0px 0px;
-}
-.divTableRow {
-	border: none;
-	display: table-row;
-	vertical-align: top;
-	padding: 0px 0px;
-	margin: 0px 0px;
-}
-.divTableCell {
-	border: none;
-	display: table-cell;
-	padding: 0px 0px;
-	margin: 0px 0px;
-	vertical-align: top;
-}
-.divTableBody {
-	border: none;
-	display: table-row-group;
-}
-
-img.left {
-  padding: 0px 100px 40px 0;
-  width: 250px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-footer ul {
+.project-name {
   font-family: 'Nunito', 'Helvetica', 'Sans-Serif';
-  padding: 0px;
-  list-style: none;
-  font-weight: bold;
-}
-footer ul li {
-  display: inline;
-  margin-right: 20px;
-}
-footer a {
+  font-size:18px;
   color: #008dad;
 }
+
 
 .authors a{
-  /* color: #008dad; */
   color : #000000;
 }
-a {
-  text-decoration: none;
-  color: #008dad;
+
+.venue {
+  font-family: 'Nunito', 'Helvetica', 'Sans-Serif';
+  color : #000000;
+  font-style: italic
+  }
+
+.award {
+  font-family: 'Nunito', 'Helvetica', 'Sans-Serif';
+  color: #ad0087;
+  font-weight: 800
 }
-a:hover {
+  
+
+.paper-resources {
+  display:inline-block;
+}
+
+/* ------------------------- */
+
+
+/*  dropdowns --- */
+
+.dropbtn {
+  background-color: white;
+  color: #008dad;
+  font-size: 16px;
+  /* padding: 16px;
+  font-size: 16px; */
+  font-family: "Nunito", "Helvetica", "Sans-Serif";
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  color: #008dad;
+  font-size: 16px;
+  font-family: "Nunito", "Helvetica", "Sans-Serif";
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #008dad;
+  padding: 12px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover  {
   text-decoration: none;
   color: #05d1ff;
 }
 
-h1 {
-  font-size: 32px;
-/*  font-weight:normal;*/
-  font-weight: 2500;
-}
-h1, h2, h3 {
-  font-family: 'Nunito', 'Helvetica', 'Sans-Serif';
-  color: #666666;
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: white;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  text-decoration: none;
+  color: #05d1ff;
 }
 
-blockquote {
-  border-left: 8px solid #F05232;
-  margin-left: 1.5em 10px;
-  /* padding: 0.5em 10px; */
-  font-size: 24px;
-  font-family: 'Nunito', 'Helvetica', 'Sans-Serif';
-  line-height: 36px;
-  text-indent: -0.45em;
-  text-decoration: italic;
-  color: #F05232;
-  padding: 7px 0 7px 28px;
-}
+/* -------------------------- */
 
-blockquote:before {
-  color: #ccc;
-  font-size: 4em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
-}
 
-blockquote p {
-  display: inline;
-}
-
-blockquote .cite {
-  display: inline;
-  color: #D8CCB3;
-  font-family: 'Nunito', 'Helvetica', 'Sans-Serif';
-  font-size: 12px;
-}
-
-p, ol, ol li, ul, ul li {
-  font-family: 'Nunito', 'Helvetica', 'Sans-Serif';
-  font-size: 16px;
-  line-height: 1.6em;
-  color: #45413A;
-}
-
-ol {
-  counter-reset: list;
-}
-ol > li {
-  list-style: none;
-  position: relative;
-}
-ol > li:before {
-  counter-increment: list;
-  content: "(" counter(list) ") ";
-  position: absolute;
-  left: -1.4em;
-}
+/*  footer --- */
 
 footer {
+  margin-top:10px;
   border-top: 1px solid #D8CCB3;
-  font-size: .8em;
-  min-width: 900px;
 }
+/* -------------------------- */
 
-ul.posts {
-  margin: 20px auto 40px;
-}
-
-ul.posts li {
-  list-style: none;
-  font-family: 'Nunito', 'Helvetica', 'Sans-Serif';
-  font-size: 24px;
-}
-
-header, nav {
-  height: 120px;
-}
-
-header {
-  vertical-align: middle;
-  min-width: 900px;
-}
-
-nav ul {
-  margin: 0;
-  height: 100%;
-  display: table;
-  font-family: 'Nunito', 'Helvetica', 'Sans-Serif';
-  list-style: none;
-  font-weight: bold;
-}
-nav ul li {
-  height: 100%;
-  vertical-align: middle;
-  display: table-cell;
-  font-family: 'Nunito', 'Helvetica', 'Sans-Serif';
-}
-
-nav li {
-  display:inline;
-  padding:10px;
-}
-
-header nav {
-  list-style: center;
-  float: right;
-  vertical-align: middle;
-}
-
-header h1 {
-  font-size: 36px;
-}
-
-.excerpt {
-  margin-left: 20px;
-}
-
-.excerpt, .excerpt a, .excerpt a:hover {
-  color: #45413A;
-}
-
-.read-more {
-  margin-left: 20px;
-  text-decoration: italic;
-  margin-bottom: 40px;
-}
-
-.refs ol {
-  margin: 0px;
-  padding-bottom: 25px;
-  height: 100%;
-  display: block;
-  font-family: 'Nunito', 'Helvetica', 'Sans-Serif';
-  font-size: 16px;
-  color: #45413A;
-}
-
-.refs ol li {
-  padding-bottom: 10px;
-}
-
-.refs ol {
-  counter-reset: list;
-}
-.refs ol > li {
-  list-style: none;
-  position: relative;
-}
-.refs ol > li:before {
-  counter-increment: list;
-  content: counter(list) ". ";
-  position: absolute;
-  left: -1.4em;
-}
-
-.footnotes {
-  font-family: 'Nunito', 'Helvetica', 'Sans-Serif';
-  font-size: 12px;
-  color: #666666;
-  padding-top: 10px;
-  padding-bottom: 25px;
-}
-
-.footnotes hr {
-  width: 100px;
-  background-color: #ffffff;
-  border-color: transparent;
-}
-
-.footnotes section {
-  padding-bottom: 10px;
-}
-
-.pagination a, .pagination span {
-  font-family: 'Nunito', 'Helvetica', 'Sans-Serif';
-  font-size: 20px;
-  color: #D8CCB3;
-  text-decoration: none;
-  display: inline-block;
-  padding: 20px;
-  margin-bottom: 20px;
-  }
-
-.pagination a:hover {
-  color: #F05232;
- }
-
-.pagination {
-  font-family: 'Nunito', 'Helvetica', 'Sans-Serif';
-  font-size: 20px;
-  color: #F05232;
-  text-align: center;
- }
-
-hr {
-  background-color: #666666;
-  border-color: transparent;
-}
-
-figure {
-  padding: 20px;
-  align: center;
-  text-align: center;
-  margin: auto;
-  width: 80%;
-  min-width: 400px;
-}
-
-figcaption {
-  font-size: 14px;
-  font-family: 'Nunito', 'Helvetica', 'Sans-Serif';
-  text-decoration: italic;
-  color: #45413A;
-  text-align: left;
-  padding-top: 20px;
-}
-
-.title {
-  float: left;
-  margin: 0;
-  display: table;
-  width: 600px;
-  padding-top: 10px;
-}
-
-.title a {
-  color: #000000;
-}
- 
-div.about {
-  padding-left: 300px;
-  padding-top: 50px;
-  width: 90%;
-  min-width: 900px;
-}
-
-img.about {
-  padding: 25px 100px 50px 0;
-  width: 250px;
-  float: left;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.pub {
-  padding-bottom: 20px;
-  min-width: 600px;
-  max-width: 900px;
-}
-
-.pub h2 {
-  color: #9B8C7A;
-}
-
-.project {
-  display: flex;
-  position: relative;
-  padding-bottom: 100px;
-  min-width: 800px;
-  height: 200px;
-}
-
-.project p a:hover {
-  color: #F05232;
-}
-
-.project-img {
-  flex: 25%;
-  position: relative;
-  float: left;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.project-img img {
-  width: 80%;
-  min-width: 170px;
-  padding-top: 5px;
-}
-
-.project-desc {
-  flex: 75%;
-  float: right;
-  min-width: 600px;
-  max-width: 1000px;
-  padding-left: 25px;
-}
-
-.prev {
-  opacity: 100%;
-  position: relative;
-  z-index: 1;
-}
-
-.prev:hover {
-  opacity: 0%;
-}
-
-.anim {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.desc {
-  font-style: italic;
-}
-
-.meta {
-  color: #9B8C7A;
-  font-size: 20px;
-}
-
-.tags {
-  font-family: 'Nunito', 'Helvetica', 'Sans-Serif';
-}
-
-.post {
-  min-width: 900px;
-}
 
 /*** Works on common browsers ***/
 ::selection {
-  background-color: #F05232;
+  background-color: #ad0087;
   color: #fff;
 }
 
@@ -536,6 +307,6 @@ img.about {
 
 /*** For Webkit ***/
 ::-webkit-selection {
-  background-color: #F05232;
+  background-color: #ad0087;
   color: #fff;
 }

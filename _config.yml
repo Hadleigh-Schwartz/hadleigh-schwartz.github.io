@@ -39,7 +39,7 @@ plugins:
 content:
 
   ## Collaborator pages
-  charlie: "<a href=\"https://www.cs.columbia.edu/~cjc/\">Charles Carver</a>"
+  charlie: "<a href=\"https://www.cs.columbia.edu/~cjc/\">Charles J. Carver</a>"
   xia: "<a href=\"https://www.cs.columbia.edu/~xia/\">Xia Zhou</a>"
   dan: "<a href=\"https://www.cs.columbia.edu/~danr/\">Dan Rubenstein</a>" 
   vishal: "<a href=\"https://www.cs.columbia.edu/~misra/\">Vishal Misra</a>"  
@@ -59,6 +59,10 @@ content:
   chun:  "<a href=\"\">Chun-Cheng Chang</a>"  
   kechen: "<a href=\"\">Kechen Liu</a>"  
   kelly:  "<a href=\"\">Kelly Yen</a>"  
+  yuxin:  "<a href=\"https://yxchen.me/\">Yuxin Chen</a>"
+  zain:  "<a href=\"https://zainsarwar865.github.io/\">Zain Sarwar</a>"
+  ben: "<a href=\"https://people.cs.uchicago.edu/~ravenben/\">Ben Y. Zhao</a>"
+  zhuolin: "<a href=\"https://zhuoliny.github.io/\">Zhoulin Yang</a>"
   heather: "<a href=\"https://people.cs.uchicago.edu/~htzheng/\">Heather Zheng</a>" 
   sandlab: "<a href=\"https://sandlab.cs.uchicago.edu/\">SAND Lab</a>" 
 
