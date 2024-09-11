@@ -62,10 +62,10 @@ body {
 }
 
 .research-img img {
-  width: 195px;
+  width: 250px;
   height: 200px;
-  margin-top: 15px;
-  margin-right: 50px;
+  margin-top: -12px;
+  margin-right: 20px;
 }
 
 .research-desc {
@@ -158,7 +158,6 @@ img.left {
   margin-right: auto;
 }
 
-
 footer ul {
   font-family: 'Nunito', 'Helvetica', 'Sans-Serif';
   padding: 0px;
@@ -171,6 +170,11 @@ footer ul li {
 }
 footer a {
   color: #008dad;
+}
+
+.authors a{
+  /* color: #008dad; */
+  color : #000000;
 }
 a {
   text-decoration: none;
@@ -407,7 +411,7 @@ figcaption {
   float: left;
   margin: 0;
   display: table;
-  width: 300px;
+  width: 600px;
   padding-top: 10px;
 }
 

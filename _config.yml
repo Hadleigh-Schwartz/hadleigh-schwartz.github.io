@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Hadleigh Schwartz's Page
-email: hadleigh@cs.colbuma.edu
+email: hadleigh@cs.columbia.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -35,6 +35,35 @@ theme: minima
 plugins:
   - jekyll-feed
 
+  # Content
+content:
+
+  ## Collaborator pages
+  charlie: "<a href=\"https://www.cs.columbia.edu/~cjc/\">Charles Carver</a>"
+  xia: "<a href=\"https://www.cs.columbia.edu/~xia/\">Xia Zhou</a>"
+  dan: "<a href=\"https://www.cs.columbia.edu/~danr/\">Dan Rubenstein</a>" 
+  vishal: "<a href=\"https://www.cs.columbia.edu/~misra/\">Vishal Misra</a>"  
+  sam: "<a href=\"https://samuel-deng.github.io/\">Sam Deng</a>" 
+  xiaofeng: "<a href=\"\">Xiaofeng Yan</a>"  
+  qijia: "<a href=\"https://qijiashao.github.io/\">Qijia Shao</a>"  
+  nicholas: "<a href=\"\">Nicholas Shade</a>"  
+  joe: "<a href=\"\">Joseph Lazzaro</a>"  
+  eric: "<a href=\"https://ericfossum.com/\">Eric Fossum</a>"  
+  xiaoxin: "<a href=\"\">Xiaoxin Wang</a>"  
+  jifeng: "<a href=\"https://faculty-directory.dartmouth.edu/jifeng-liu\">Jifeng Liu</a>"  
+  brian: "<a href=\"https://brianplancher.com/\">Brian Plancher</a>"  
+  vikram: "<a href=\"https://homes.cs.washington.edu/~vsiyer/\">Vikram Iyer</a>"  
+  zach: "<a href=\"https://zachary.englhardt.com/\">Zachary Englhardt</a>"  
+  toma: "<a href=\"https://www.tomaitagaki.com/\">Toma Itagaki</a>"  
+  megan:  "<a href=\"\">Megan Graciela Nauli Manik</a>"  
+  chun:  "<a href=\"\">Chun-Cheng Chang</a>"  
+  kechen: "<a href=\"\">Kechen Liu</a>"  
+  kelly:  "<a href=\"\">Kelly Yen</a>"  
+  heather: "<a href=\"https://people.cs.uchicago.edu/~htzheng/\">Heather Zheng</a>" 
+  sandlab: "<a href=\"https://sandlab.cs.uchicago.edu/\">SAND Lab</a>" 
+
+
+  
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
