@@ -34,6 +34,7 @@ github_username:  jekyll
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
   # Content
 content:
